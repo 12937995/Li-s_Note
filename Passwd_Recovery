@@ -19,4 +19,4 @@ init方法：
 4. 挂载文件系统为可写模式：mount –o remount,rw /
 5. 运行passwd,并按提示修改root密码。
 6. 如何之前系统启用了selinux，必须运行以下命令，否则将无法正常启动系统：touch /.autorelabel
-7. 运行命令exec /sbin/init来正常启动，或者用命令exec /sbin/reboot重启
+7. 运行命令exec /sbin/init来正常启动（或者用命令exec /sbin/reboot重启，注：该命令在虚拟机下报错）
